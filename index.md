@@ -5,5 +5,5 @@ tagline:
 description: 
 ---
 
-Hello!
-<img src="{{ BASE_PATH }}/assets/images/gif1.gif" alt="hello" style="width: 300px;">
+Hello! <br>
+<img src="{{ BASE_PATH }}/simple_site/assets/images/gif1.gif" alt="hello" style="width: 300px;">
