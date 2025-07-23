@@ -5,15 +5,21 @@ permalink: /news/
 ---
 
 
-<a href="https://bsky.app/profile/@2wsphotography.bsky.social" target="_blank" style="text-decoration: none;">
-  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 12px; display: flex; align-items: center; gap: 12px; max-width: 400px;">
-    <img src="https://bsky.app/static/logo192.png" alt="Bluesky logo" style="width: 40px; height: 40px;">
-    <div>
-      <strong>@yourhandle.bsky.social</strong><br>
-      View my Bluesky posts
-    </div>
-  </div>
-</a>
-
-
-
+ <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+  <bsky-embed
+    username="vincentwill.com"
+    feed="at://...(decide between username, feed, or search)"
+    search="#BuildInPublic (decide between username, feed, and search)"
+    mode="light"
+    limit="5"
+    link-target="_blank"
+    link-image="true"
+    load-more="true"
+    disable-styles="false"
+    custom-styles=".border-slate-300 { border-color: red; }"
+    date-format='{"type":"absolute","locale":"de-DE","options":{"weekday":"long","year":"numeric","month":"long","day":"numeric"}}'
+    disable-images="true"
+    disable-videos="true"
+    disable-autoplay="true"
+  >
+  </bsky-embed>
