@@ -7,7 +7,7 @@ permalink: /news/
 
  <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
   <bsky-embed
-    username="vincentwill.com"
+    username="2wsphotography.bsky.social"
     feed="at://...(decide between username, feed, or search)"
     search="#BuildInPublic (decide between username, feed, and search)"
     mode="light"
